@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+
+</head>
+    <h1 th:text="${title}">Donation Categories</h1>
+<form method="post" action="eventCategories/create">
+    <div class="form-group">
+        <label>Name
+            <input type="text" name="categoryName" class="form-control">
+        </label>
+    </div>
+    <div class="form-group">
+        <label>Description
+            <input type="text" name="categoryType" class="form-control">
+        </label>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create Category" class="btn btn-success">
+    </div>
+</form>
+
+
+
+<body>
+
+</body>
+</html>
